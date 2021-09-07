@@ -8,17 +8,15 @@
 #include <readline/history.h>
 
 
-// typedef struct s_parse
-// {
+typedef struct s_parse
+{
 	
-// }
+}
 
-typedef struct	s_head
+typedef struct	s_main
 {
 	char *readline;
 
-}	t_head;
-
-int main_parser(t_head *head, char **env);
+}	t_main;
 
 #endif
