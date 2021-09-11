@@ -26,6 +26,7 @@ int main(int argc, char **argv, char **env)
     (void)argc;
     (void)argv;
     // parse = (t_parse *) malloc(sizeof(t_parse));
+	//clear_head(head, env);
     head = (t_head *) malloc(sizeof(t_head));
     while(1)
     {

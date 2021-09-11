@@ -126,7 +126,7 @@ int main_parser(t_head *head, char **env)
         if (head->readline[i] == '\"')
             head->readline = ft_double_quotes(head->readline, &i, env);
         if (head->readline[i] == '$')
-            head->readline = ft_dollar(head->readline, &i, env);
+            head->readline = ft_dollar(head->readline, &i, env);	
 	}
 	return (0);
 }
